@@ -2,6 +2,7 @@ import React from 'react';
 
 import logoImg from '../../assets/images/logo.svg';
 import landingImg from '../../assets/images/landing.svg';
+
 import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcons from '../../assets/images/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
@@ -22,21 +23,23 @@ function Landing() {
                     <h2> Sua plataforma de estudos </h2>
 
                 </div>
-                <div>
+                
                     <img 
                         src= {landingImg} 
                         alt=" Texto kkk" 
-                        className = "HeroImage" />
+                        className = "hero-image" 
+                        />
             
-                <a href=" " className="study">
+                <div className = "buttons-container">
+                    <a href=" " className="study">
                     <img src={studyIcon} alt="Estudar" />
                     Estudar
-                </a>
-
-                <a href=" " className="study">
+                    </a>
+                
+                    <a href=" " className="give-classes">
                     <img src={giveClassesIcons} alt="Dar aulas" />
                     Dar aulas 
-                </a>
+                    </a>
                 </div>
 
                 <span className="total-connection">
