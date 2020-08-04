@@ -10,7 +10,7 @@ function TeacherList() {
             <PageHeader />
             
         </div>
-    );
+    )
 } 
 
 export default TeacherList;
