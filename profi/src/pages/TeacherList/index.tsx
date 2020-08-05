@@ -1,8 +1,8 @@
 import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
 
-import whatsappIcon from '../../assets/icons/whatsapp.svg';
 
 import './styles.css';
 
@@ -32,30 +32,12 @@ function TeacherList() {
         
 
             <main>
-                <article className ="teacher-item ">
-                    <header>
-                        <img src="https://github.com/account " alt="Ricardo" />
-                            <div>
-                                <strong> Ricardo Silva</strong>
-                                <span>Matemática</span>
-                            </div>
-                    </header>
-                            <p>
-                                Entusiasta de cú é rola! 
-                            </p>
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
 
-                    <footer>
-                        <p>
-                            Preço por Hora
-                        <strong>R$ 50.00</strong>
-                        </p>
-
-                            <button type="button">
-                                <img src={whatsappIcon} alt="whatsapp"/>
-                                Entrar em contato
-                            </button>
-                    </footer>
-                </article>
             </main>
         
         </div>
